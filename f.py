@@ -47,7 +47,7 @@ load_dotenv()
 
 # --- OpenAI API KEY ---
 openai.api_key = os.getenv("OPENAI_API_KEY")
-
+  
 st.title('GPT-4o 기반 자동 퀴즈 생성기')
 
 # 교재 내용 입력
